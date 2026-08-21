@@ -2,6 +2,5 @@
 21.08.2026 
 
 ## Ideen:
-* Taschenrechner
-* To Do Liste
 * Quiz
+Ein kleines Quiz mit verschiedenen Fragen. Am Ende wird angezeigt, wie viele Antworten richtig waren.
