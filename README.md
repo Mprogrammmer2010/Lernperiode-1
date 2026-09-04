@@ -12,3 +12,8 @@ Ein kleines Quiz mit verschiedenen Fragen. Am Ende wird angezeigt, wie viele Ant
 2. Den zweiten Arbeitspaket setze ich auch für mein Projekt um
 3. Beim dritten benutze ich es noch für den Abschluss und fürs planen für übernächtes mal
 4. Ich werde meinen Projekt noch erweitern nächstes mal falls ich schneller fertig werde von 1-10 auf 10-100 ändern und damit mich selber weiter fordern.
+11.09.2026
+1. Ich werde an meinen Projekt weiter machen da ich heute erst am 3 angefangen habe und viel Theorie gelernt habe und nicht viel weiter machen konnte an meinen Projekt.
+2.Ich werde an meinen Projekt weiter machen da ich heute erst am 3 angefangen habe und viel Theorie gelernt habe und nicht viel weiter machen konnte an meinen Projekt.
+3.Ich werde an meinen Projekt weiter machen da ich heute erst am 3 angefangen habe und viel Theorie gelernt habe und nicht viel weiter machen konnte an meinen Projekt.
+4.Ich werde mein neues Arbeitspaket für nächstes mal planen.
