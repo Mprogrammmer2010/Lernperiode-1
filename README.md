@@ -1,16 +1,28 @@
-Lern-Periode 1
-28.8 bis ?
+Lernphase 1
 
-Grob-Planung
-Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
-Was wäre ein geeignetes Projekt für diese LP1?
-28.8.2026
-✍️ Heute habe ich... (50-100 Wörter)
+Zeitraum: 28.08. bis ?
 
-6.9.2026
- Erstes Arbeitspaket
- ...
- Viertes AP
-✍️ Heute habe ich... (50-100 Wörter)
+## Grobe Planung
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
+Standortbestimmung: Wie sieht meine aktuelle Notenlage aus? In welchen Modulen habe ich Stärken und wo gibt es Nachholbedarf (ungenügend)? Welchen Stellenwert haben diese Fächer für mich?
+
+Projektidee für LP1: Was eignet sich als praktische Arbeit? Ich habe mir überlegt, ein Quiz-Programm zu entwickeln, das auf Wahr/Falsch-Antworten basiert.
+
+## 28.08.2026
+
+Heute stand das Programmieren von drei verschiedenen Anwendungen auf dem Plan. Den Anfang machte ein Zahlenratespiel, bei dem das Programm dem Nutzer Hinweise gibt, ob die geratene Zahl zu hoch oder zu niedrig ist. Anschließend habe ich einen Notenrechner entworfen: Man gibt seine erreichte Punktzahl ein, und das Programm ermittelt daraus die bestehende Note. Dabei wird auch die maximale Punktzahl berücksichtigt; erreicht man mehr als die Maximalpunktzahl, gratuliert das Programm und vergibt spaßeshalber eine 6+. Das dritte Projekt war ein Quizspiel mit Wahr/Falsch-Fragen. Zusätzlich habe ich dabei gelernt, wie man Werte in einen booleschen Datentyp umwandelt.
+
+## 4.09.2026
+
+☑ Eine Schleife programmieren, deren Wiederholungsanzahl der Nutzer selbst bestimmt.
+□ Ein Quiz erstellen, bei dem der Anwender die Anzahl der Fragen festlegen kann.
+□ Recherche: Wie kann ein Programm automatisch eigene Fragen generieren?
+Heute habe ich erfolgreich eine Schleife implementiert, die genau so oft durchläuft, wie es der Benutzer vorgibt. Die Umsetzung des Quiz, bei dem der Nutzer die Fragenanzahl selbst bestimmt, hat leider noch nicht funktioniert.
+
+## 11.09.2026
+
+□ Aufbau einer Datenbank, um 10 Quizfragen zu speichern und über eine Nummer abrufen zu können.
+□ Das Programm soll den Nutzer nach der gewünschten Anzahl an Fragen fragen.
+□ Der Nutzer soll die Fragenanzahl eingeben und diese dann auch gestellt bekommen.
+□ Herausfinden, wie ein Programm automatisch eigene Fragen erstellen kann.
+
