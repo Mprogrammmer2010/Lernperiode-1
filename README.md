@@ -1,19 +1,16 @@
-# Lernperiode-1
-21.08.2026 
+Lern-Periode 1
+28.8 bis ?
 
-## Ideen:
-* Quiz
-Ein kleines Quiz mit verschiedenen Fragen. Am Ende wird angezeigt, wie viele Antworten richtig waren.
-28.08.26
--(heute fange ich an mit meinen Projekt an wenn ich fertig bin mit Mission 3 bei Modul 319 da ich sehr hinten  dran bin. später werde ich einfach entweder mit Rate die Zahl Spiel programmieren oder einfach einen Taschenrechner und als dritte Option Quiz.)
--(Ich konnte meine Ziele nicht richtig erreichen Mission 3 kam ich nicht weiter da ich das vorherige Stoff repetieren und vesrtehen musste und erst dann konnte ich Mission 3 erledigen. Aber ich habe sehr viel Zeit damit verschwendet, und kam nicht weiter mit meinem Projekt habe erst angefangen und mein Projekt ist Rate die Zahl. Ich habe erst mal angefangen und angeschaut wie ich vorgehe und hoffe das ich nächstes mal fertig werde.)
-04.09.2026
-1. Arbeitspaket für nächstes mal mein  Projekt fertig machen
-2. Den zweiten Arbeitspaket setze ich auch für mein Projekt um
-3. Beim dritten benutze ich es noch für den Abschluss und fürs planen für übernächtes mal
-4. Ich werde meinen Projekt noch erweitern nächstes mal falls ich schneller fertig werde von 1-10 auf 10-100 ändern und damit mich selber weiter fordern.
-11.09.2026
-1. Ich werde an meinen Projekt weiter machen da ich heute erst am 3 angefangen habe und viel Theorie gelernt habe und nicht viel weiter machen konnte an meinen Projekt.
-2.Ich werde an meinen Projekt weiter machen da ich heute erst am 3 angefangen habe und viel Theorie gelernt habe und nicht viel weiter machen konnte an meinen Projekt.
-3.Ich werde an meinen Projekt weiter machen da ich heute erst am 3 angefangen habe und viel Theorie gelernt habe und nicht viel weiter machen konnte an meinen Projekt.
-4.Ich werde mein neues Arbeitspaket für nächstes mal planen.
+Grob-Planung
+Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
+Was wäre ein geeignetes Projekt für diese LP1?
+28.8.2026
+✍️ Heute habe ich... (50-100 Wörter)
+
+6.9.2026
+ Erstes Arbeitspaket
+ ...
+ Viertes AP
+✍️ Heute habe ich... (50-100 Wörter)
+
+☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
