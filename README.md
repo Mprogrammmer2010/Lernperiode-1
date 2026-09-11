@@ -26,3 +26,8 @@ Heute habe ich erfolgreich eine Schleife implementiert, die genau so oft durchl�
 □ Der Nutzer soll die Fragenanzahl eingeben und diese dann auch gestellt bekommen.
 □ Herausfinden, wie ein Programm automatisch eigene Fragen erstellen kann.
 
+## 18.09.2026
+
+ Den Code vom letzten Mal aufräumen und in verschiedene Funktionen aufteilen (z.B. eine Funktion für die Fragenauswahl, eine für die Auswertung).
+ Einen "Fehlerteufel" einbauen: Was passiert, wenn der Nutzer eine ungültige Zahl bei der Fragenanzahl eingibt? (Lösung: Eine While-Schleife zur Überprüfung der Eingabe).
+
