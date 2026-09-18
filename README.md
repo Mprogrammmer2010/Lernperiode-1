@@ -29,6 +29,17 @@ Heute habe ich erfolgreich eine Schleife implementiert, die genau so oft durchl�
 ## 18.09.2026
 
  Den Code vom letzten Mal aufräumen und in verschiedene Funktionen aufteilen (z.B. eine Funktion für die Fragenauswahl, eine für die Auswertung).
- Einen "Fehlerteufel" einbauen: Was passiert, wenn der Nutzer eine ungültige Zahl bei der Fragenanzahl eingibt? (Lösung: Eine While-Schleife zur Überprüfung der Eingabe).
+ Einen "Fehlerteufel" einbauen: Was passiert, wenn der Nutzer eine ungültige Zahl bei der Fragenanzahl eingibt?
  Hausaufgaben: Ich werde mein Ratenzahl Programm fertig schaffen. muss noch paar Fehler beheben und allgemein es fertig bearbeiten damit es Funktionsfähig wird.
+
+## Reflexion
+
+Heute habe ich mein C#-Zahlenratespiel erweitert und dabei verschiedene Programmierkenntnisse angewendet. Am Anfang hatte mein Programm nur eine feste Zahl und man konnte so lange raten, bis die richtige Zahl gefunden wurde. Danach habe ich das Programm verbessert und zusätzliche Funktionen eingebaut. Dazu gehören zum Beispiel eine zufällige Zahl, verschiedene Schwierigkeitsstufen, eine begrenzte Anzahl an Versuchen und eine Überprüfung der Eingaben.
+
+Ein wichtiger Schritt war auch, den Code in mehrere Methoden aufzuteilen. Dadurch ist das Programm übersichtlicher und einzelne Aufgaben können besser voneinander getrennt werden. Mit `if`- und `else`-Bedingungen kann das Programm überprüfen, ob die geratene Zahl grösser oder kleiner als die gesuchte Zahl ist. Die `while`-Schleifen sorgen dafür, dass das Spiel so lange läuft, bis es beendet wird.
+
+Beim Programmieren habe ich gemerkt, dass kleine Fehler im Code grosse Auswirkungen haben können. Durch das Testen konnte ich diese Fehler finden und verbessern. Insgesamt habe ich dabei mein Verständnis für C# und die wichtigsten Grundlagen der Programmierung erweitert.
+
+
+
 
