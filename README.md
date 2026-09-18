@@ -30,4 +30,5 @@ Heute habe ich erfolgreich eine Schleife implementiert, die genau so oft durchl�
 
  Den Code vom letzten Mal aufräumen und in verschiedene Funktionen aufteilen (z.B. eine Funktion für die Fragenauswahl, eine für die Auswertung).
  Einen "Fehlerteufel" einbauen: Was passiert, wenn der Nutzer eine ungültige Zahl bei der Fragenanzahl eingibt? (Lösung: Eine While-Schleife zur Überprüfung der Eingabe).
+ Hausaufgaben: Ich werde mein Ratenzahl Programm fertig schaffen. muss noch paar Fehler beheben und allgemein es fertig bearbeiten damit es Funktionsfähig wird.
 
