@@ -1,0 +1,241 @@
+using System;
+
+class Programm
+{
+    static void Main()
+    {
+        bool weiterspielen = true;
+
+        Console.Title = "Zahlenratespiel";
+
+        Console.WriteLine("=================================");
+        Console.WriteLine("        ZAHLENRATESPIEL");
+        Console.WriteLine("=================================");
+        Console.WriteLine();
+
+        Console.WriteLine("Willkommen beim Zahlenratespiel!");
+        Console.WriteLine("Versuche, die geheime Zahl zu erraten.");
+        Console.WriteLine();
+
+        while (weiterspielen)
+        {
+            int zahl = WaehleSchwierigkeit();
+            int versuche = 0;
+            int maxVersuche = 0;
+            bool gewonnen = false;
+
+            switch (zahl)
+            {
+                case 100:
+                    maxVersuche = 7;
+                    break;
+
+                case 500:
+                    maxVersuche = 10;
+                    break;
+
+                case 1000:
+                    maxVersuche = 12;
+                    break;
+            }
+
+            Random zufall = new Random();
+            int geheimzahl = zufall.Next(1, zahl + 1);
+
+            Console.WriteLine();
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("Die geheime Zahl wurde festgelegt.");
+            Console.WriteLine("Du hast " + maxVersuche + " Versuche.");
+            Console.WriteLine("---------------------------------");
+
+            while (!gewonnen && versuche < maxVersuche)
+            {
+                Console.WriteLine();
+                Console.Write("Dein Tipp: ");
+
+                string eingabe = Console.ReadLine();
+
+                double tipp;
+
+                if (!double.TryParse(eingabe, out tipp))
+                {
+                    Console.WriteLine("Ungültige Eingabe!");
+                    Console.WriteLine("Bitte gib eine Zahl ein.");
+                    continue;
+                }
+
+                if (tipp < 1 || tipp > zahl)
+                {
+                    Console.WriteLine("Deine Zahl muss zwischen 1 und "
+                        + zahl + " liegen.");
+                    continue;
+                }
+
+                versuche++;
+
+                if (tipp == geheimzahl)
+                {
+                    gewonnen = true;
+
+                    Console.WriteLine();
+                    Console.WriteLine("*********************************");
+                    Console.WriteLine("RICHTIG!");
+                    Console.WriteLine("Du hast die Zahl erraten!");
+                    Console.WriteLine("Benötigte Versuche: " + versuche);
+                    Console.WriteLine("*********************************");
+
+                    int punkte = BerechnePunkte(
+                        maxVersuche,
+                        versuche,
+                        zahl
+                    );
+
+                    Console.WriteLine("Deine Punkte: " + punkte);
+                }
+                else if (tipp < geheimzahl)
+                {
+                    Console.WriteLine("Die gesuchte Zahl ist größer.");
+                }
+                else
+                {
+                    Console.WriteLine("Die gesuchte Zahl ist kleiner.");
+                }
+
+                if (!gewonnen)
+                {
+                    int uebrig = maxVersuche - versuche;
+
+                    Console.WriteLine(
+                        "Verbleibende Versuche: " + uebrig
+                    );
+
+                    if (Math.Abs(tipp - geheimzahl) <= 5)
+                    {
+                        Console.WriteLine("Tipp: Du bist sehr nah dran!");
+                    }
+                    else if (Math.Abs(tipp - geheimzahl) <= 20)
+                    {
+                        Console.WriteLine("Tipp: Du bist schon ziemlich nah.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Tipp: Du bist noch weit entfernt.");
+                    }
+                }
+            }
+
+            if (!gewonnen)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Leider verloren!");
+                Console.WriteLine(
+                    "Die geheime Zahl war: " + geheimzahl
+                );
+            }
+
+            Console.WriteLine();
+            weiterspielen = FrageNachNeuemSpiel();
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("=================================");
+        Console.WriteLine("       SPIEL BEENDET");
+        Console.WriteLine("Danke fürs Spielen!");
+        Console.WriteLine("=================================");
+
+        Console.ReadLine();
+    }
+
+    static int WaehleSchwierigkeit()
+    {
+        int auswahl = 0;
+
+        while (auswahl < 1 || auswahl > 3)
+        {
+            Console.WriteLine();
+            Console.WriteLine("Wähle einen Schwierigkeitsgrad:");
+            Console.WriteLine();
+            Console.WriteLine("1 - Einfach   (1 bis 100)");
+            Console.WriteLine("2 - Mittel    (1 bis 500)");
+            Console.WriteLine("3 - Schwer    (1 bis 1000)");
+            Console.WriteLine();
+
+            Console.Write("Deine Auswahl: ");
+
+            string eingabe = Console.ReadLine();
+
+            if (!int.TryParse(eingabe, out auswahl))
+            {
+                Console.WriteLine("Bitte gib 1, 2 oder 3 ein.");
+                auswahl = 0;
+            }
+        }
+
+        if (auswahl == 1)
+        {
+            Console.WriteLine("Einfach ausgewählt!");
+            return 100;
+        }
+
+        if (auswahl == 2)
+        {
+            Console.WriteLine("Mittel ausgewählt!");
+            return 500;
+        }
+
+        Console.WriteLine("Schwer ausgewählt!");
+        return 1000;
+    }
+
+    static int BerechnePunkte(
+        int maxVersuche,
+        int benutzteVersuche,
+        int schwierigkeitszahl)
+    {
+        int grundpunkte = schwierigkeitszahl / 10;
+
+        int bonus = (maxVersuche - benutzteVersuche) * 10;
+
+        int punkte = grundpunkte + bonus;
+
+        if (punkte < 0)
+        {
+            punkte = 0;
+        }
+
+        return punkte;
+    }
+
+    static bool FrageNachNeuemSpiel()
+    {
+        while (true)
+        {
+            Console.WriteLine();
+            Console.Write("Möchtest du noch einmal spielen? (j/n): ");
+
+            string antwort = Console.ReadLine();
+
+            if (antwort == null)
+            {
+                continue;
+            }
+
+            antwort = antwort.ToLower();
+
+            if (antwort == "j" || antwort == "ja")
+            {
+                return true;
+            }
+
+            if (antwort == "n" || antwort == "nein")
+            {
+                return false;
+            }
+
+            Console.WriteLine(
+                "Bitte antworte mit 'j' oder 'n'."
+            );
+        }
+    }
+}
+```
