@@ -8,11 +8,14 @@
 2. Was wäre ein geeignetes Projekt für diese LP1?
 
 ## 16.10.2026
+-[x] Einen zahlenguesser programmieren bei dem eine zufällige Zahl bei jedem durchgang generiert wird und der Benutzer ihn eraten muss. das programm soll ihn darauf hin sagen ob er zu hoch oder zu niedrig ist.
+-[ ] Ich probiere einen Noteberechner zu programmieren bei dem der Benutzer die Maximale Puntzahl eingeben kann oder auch mit dem er seinen durchschnitt ausrechnen kann.
 
-- [ ] AP 1
-- [ ] ...
-- [ ] ...
+Heute habe ich ein kleines Zahlenratespiel programmiert, bei dem der Spieler eine zufällig generierte Zahl herausfinden muss. Ausserdem habe ich mich darüber informiert, wie man einen Notenberechner entwickeln könnte, beispielsweise um eigene Noten zu berechnen.
 
-✍️ Heute habe ich... (50-100 Wörter)
+**Meine nächsten Schritte:**
+- Mich für ein konkretes Projekt entscheiden.
+- Einen passenden PAP (Programmablaufplan) erstellen.
+- Mit der Programmierung des Projekts beginnen.
 
 ## 23.10.2026
