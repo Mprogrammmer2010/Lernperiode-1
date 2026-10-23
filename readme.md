@@ -19,3 +19,10 @@ Heute habe ich ein kleines Zahlenratespiel programmiert, bei dem der Spieler ein
 - Mit der Programmierung des Projekts beginnen.
 
 ## 23.10.2026
+Anfangen mit Projekt, Projekt ist Taschenrechner 
+**Meine nächsten Schritte:**
+- Die Grundlagen nachschauen und Infos die ich für dieses Projekt brauche
+- Alles umsetzen was ich nachforsche.
+- Meine Fortschritte bei readme einfügen inklusiv Code um einfacher für Herr Colic machen damit er sehen kann wie weit ich bin mit meinen Projekt.
+## 30.10.2026
+- An mein Projekt weiter machen.
